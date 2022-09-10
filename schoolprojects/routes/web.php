@@ -21,6 +21,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/game', [App\Http\Controllers\GameController::class, 'index'])->name('game');
+
 
 // https://www.itsolutionstuff.com/post/laravel-8-multi-auth-authentication-tutorialexample.html
 // Route::get('admin/home', [HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');

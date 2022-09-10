@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\n\ Write\ a\ description\ of\ class\ Location\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name
+comment1.target=Location(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Location\n
+comment2.params=name\ isFinal
+comment2.target=Location(java.lang.String,\ boolean)
+comment3.params=character
+comment3.target=void\ addCharacter(Character)
+comment4.params=character
+comment4.target=void\ removeCharacter(Character)
+comment5.params=item
+comment5.target=void\ addItem(Object)
+comment6.params=item
+comment6.target=void\ removeItem(Object)
+comment7.params=room
+comment7.target=void\ connectRoom(Location)
+numComments=8
